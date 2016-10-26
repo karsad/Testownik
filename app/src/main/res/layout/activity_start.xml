@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:layout_margin="16dp">
+
+    <Button
+        android:text="@string/start_select"
+        android:id="@+id/button_select" />
+
+    <Button
+        android:text="@string/start_download"
+        android:id="@+id/button_download" />
+
+    <Button
+        android:text="@string/start_add"
+        android:id="@+id/button_add" />
+
+    <Button
+        android:text="@string/start_edit"
+        android:id="@+id/button7" />
+</LinearLayout>
